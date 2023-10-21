@@ -1,1 +1,1 @@
-# theming
+# assets for nixos configs
