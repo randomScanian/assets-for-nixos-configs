@@ -1,3 +1,6 @@
 [submodule "theming/prismlauncher"]
 	path = theming/prismlauncher
 	url = https://github.com/dracula/polymc.git
+[submodule "theming/wallpaper"]
+	path = theming/wallpaper
+	url = https://github.com/dracula/wallpaper.git
