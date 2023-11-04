@@ -43,7 +43,7 @@ theme = dict(bg="#282A36",
              yellow="#F1FA8C")
 
 mod = "mod4"
-terminal = guess_terminal()
+terminal = "kitty"
 myEmacs = "emacsclient -c -a 'systemctl --user start emacs'"
 
 # When using the Wayland backend, this can be used to configure input devices.
