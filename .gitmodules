@@ -4,3 +4,6 @@
 [submodule "theming/wallpaper"]
 	path = theming/wallpaper
 	url = https://github.com/dracula/wallpaper.git
+[submodule "theming/dracula-kitty"]
+	path = theming/dracula-kitty
+	url = https://github.com/dracula/kitty.git
