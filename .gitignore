@@ -1,2 +1,5 @@
 /qtile/config.py~
 /qtile/__pycache__/
+/flake.lock
+/flake.nix
+/flake.nix2
