@@ -156,7 +156,6 @@ screens = [Screen(top=bar.Bar([widget.GroupBox(disable_drag=True,
                                widget.CPUGraph(),
                                widget.CPU(),
                                widget.Sep(),
-                               widget.MemoryGraph(),
                                widget.Memory(format = "{MemUsed: .0f}{mm}/{MemTotal: .0f}{mm} = {MemPercent}%"),
                                widget.Sep(),
                                widget.Systray(),
@@ -196,7 +195,6 @@ floating_layout = layout.Floating(
 auto_fullscreen = False
 focus_on_window_activation = "smart"
 reconfigure_screens = True
-auto_fullscreen = False
 
 # If things like steam games want to auto-minimize themselves when losing
 # focus, should we respect this or not?
