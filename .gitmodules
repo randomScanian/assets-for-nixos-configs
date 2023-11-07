@@ -7,3 +7,6 @@
 [submodule "theming/dracula-kitty"]
 	path = theming/dracula-kitty
 	url = https://github.com/dracula/kitty.git
+[submodule "Betterfox"]
+	path = Betterfox
+	url = https://github.com/yokoffing/Betterfox.git
