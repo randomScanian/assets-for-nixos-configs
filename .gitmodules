@@ -10,3 +10,6 @@
 [submodule "Betterfox"]
 	path = Betterfox
 	url = https://github.com/yokoffing/Betterfox.git
+[submodule "awesomewm-widgets"]
+	path = awesomewm/awesome-wm-widgets
+	url = https://github.com/streetturtle/awesome-wm-widgets.git

@@ -6,6 +6,8 @@ pcall(require, "luarocks.loader")
 local gears = require("gears")
 local shape = require("gears.shape")
 
+local volume_widget = require('awesome-wm-widgets.volume-widget.volume')
+
 local awful = require("awful")
 require("awful.autofocus")
 -- Widget and layout library
@@ -265,11 +267,6 @@ globalkeys = gears.table.join(
    awful.key({ modkey, "Control" }, "l",     function () awful.tag.incncol(-1, nil, true)    end,
       {description = "decrease the number of columns", group = "layout"}),
    
-   awful.key({ modkey,           }, "space", function () awful.layout.inc( 1)                end,
-      {description = "select next", group = "layout"}),
-   
-   awful.key({ modkey, "Shift"   }, "space", function () awful.layout.inc(-1)                end,
-      {description = "select previous", group = "layout"}),
 
    awful.key({ modkey, "Control" }, "n",
       function ()
