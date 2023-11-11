@@ -185,6 +185,7 @@ awful.screen.connect_for_each_screen(function(s)
             -- mykeyboardlayout,
             wibox.widget.systray(),
             mytextclock,
+	    volume_widget(),
             s.mylayoutbox,
 	 },
       }
